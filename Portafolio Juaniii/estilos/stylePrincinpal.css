@@ -1,0 +1,108 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body{
+}
+
+.navegador{
+    margin: 0 0;
+    background-color: #000;
+    padding-bottom: 1rem;
+    display: flex;
+    padding: 23px   ;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    padding-top: 10px;
+}
+li{
+    list-style: none;
+}
+
+li a{
+    font-size: 20px;
+    margin-inline: 20px;
+    color:#fff; 
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+    width: 510px;
+    font-size: 23px;
+}
+#principal{
+    width: 170px;
+    margin-inline-end: 50px;
+    height: 210px;
+}
+
+h1,center{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+section article,aside,footer{
+    margin-left: 10px;
+}
+
+.conteiner,.misGustos,.pasaTiempos{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.misGustos,.pasaTiempos{
+    flex-direction: column;
+}
+h3{
+    font-size: 26px;
+}
+.personaje img{
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    top: 1px;
+    left:90vw;
+}
+
+.personaje img:hover{
+    filter : drop-shadow(5px 4px 3px rgb(129, 20, 20)); 
+}
+
+li a:hover{
+    color:rgb(244, 6, 6); 
+}
+#trepado{
+    position: fixed;
+    top:80vh;
+    z-index: 999;
+    transform: rotate(0deg); 
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 30px;
+    position: fixed;
+    width: 100vw;
+    
+}
+small{
+    color: #fff;
+}
